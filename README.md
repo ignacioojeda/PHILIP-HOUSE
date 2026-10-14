@@ -20,10 +20,29 @@ Philip es el sistema de domótica de mi casa (cuarto y jardín). Una Raspberry P
 | 4 | Luces LED y lámpara | Luces LED de colores y lámpara de trabajo | [docs/04-luces-led-lampara.md](docs/04-luces-led-lampara.md) |
 | 5 | Cortina | Cortina blackout motorizada | [docs/05-cortina.md](docs/05-cortina.md) |
 
-## Más documentación
+## 🧰 Lista de materiales
 
-- [Asistente de voz Philip](docs/philip-asistente.md)
-- [Lista de materiales](docs/materiales.md)
+| Elemento | Cantidad | Para |
+| --- | --- | --- |
+| Raspberry Pi (modelo económico) | 1 | Cerebro central |
+| ESP32 | 5 | Jardín, TV y ventilador, luz normal, luces LED y lámpara, cortina |
+| Módulo relé empotrable | 1 | Luz normal |
+| Relé | 2+ | Ventilador y bomba de riego |
+| Emisor infrarrojo (LED IR) | 1 | Televisor |
+| Motor DC con caja reductora | 1 | Cortina |
+| Driver puente H | 1 | Cortina |
+| Botón físico | 1 | Cortina |
+| Sensor de humedad de suelo | 1 | Riego |
+| Bomba de 12 V | 1 | Riego |
+
+## Por definir
+- Conexión de las luces LED y la lámpara de trabajo (relé o enchufe inteligente)
+- Micrófono y parlante para Philip
+
+## Por comprar
+- [ ] Raspberry Pi
+- [ ] 5 ESP32
+- [ ] Motor de la cortina (lo busca Andres)
 
 ## Estado
 
